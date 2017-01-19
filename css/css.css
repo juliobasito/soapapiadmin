@@ -1,0 +1,32 @@
+.foot
+{
+	position: fixed;
+	bottom:0px;
+	width:100%;
+}
+.noMarge
+{
+	margin: 0;
+}
+
+.margeBottom
+{
+	margin-bottom: 50px;
+}
+.colorBlack{
+	color:black;
+}
+
+.cardDisplay{
+	min-height: 200px;
+}
+.popUp{
+	width:80%;
+	position: absolute;
+	left: 10%;
+	top:70px;
+	padding: 15px;
+	border: 1px solid black;
+	z-index: 1;
+	background-color: white;
+}
