@@ -19,6 +19,7 @@
             <li><a href="<?php if(isset($uri)){echo $uri;}?>userManagement">Gestion Utilisateurs</a></li>
             <li><a href="<?php if(isset($uri)){echo $uri;}?>missionManagement">Gestion Missions</a></li>
             <li><a href="<?php if(isset($uri)){echo $uri;}?>entrepriseManagement">Gestion Entreprises</a></li>
+            <li><a href="<?php if(isset($uri)){echo $uri;}?>deconnexion">Deconnexion</a></li>
         </ul>
     </div>
   </nav>

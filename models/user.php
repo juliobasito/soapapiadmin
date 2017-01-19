@@ -124,7 +124,7 @@ class user
     public static function addUser(){
         $db = null;
         include ('bdd.php');
-        $req = $db->prepare('INSERT INTO user (FirstName, LastName, Mail, Phone, Password, Id_Role, Formation) VALUES ("'.$_GET["firstName"].'", "'.$_GET["lastName"].'", "'.$_GET["mail"].'", "'.$_GET["phone"].'", "'.$_GET["password"].'", '.$_GET["role"].', "'.$_GET["formation"].'")');
+        $req = $db->prepare('INSERT INTO user (FirstName, LastName, Mail, Phone, Password, Id_Role, Id_Zone, Formation) VALUES ("'.$_GET["firstName"].'", "'.$_GET["lastName"].'", "'.$_GET["mail"].'", "'.$_GET["phone"].'", "'.$_GET["password"].'", '.$_GET["role"].', 0, "'.$_GET["formation"].'")');
         $req->execute();
     }
     public static function deleteUser($id){

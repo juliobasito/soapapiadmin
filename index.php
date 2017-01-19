@@ -17,6 +17,7 @@ $app->get('/getSeeting/:userId', function ($userId) {
     $seeting = User::getSeeting($userId);
 });
 -----------------------------------------------------*/
+session_start();
 
 $app->hook('slim.before.router', function () use ($app){
     $app->view()->setData('app',$app);
@@ -58,6 +59,14 @@ $app->get('/index', function () use ($app){
         'nbMissionNotActive'=>$nbMissionNotActive
     ));
 });
+
+$app->get('/deconnexion', function () use ($app)
+{
+    session_destroy();
+    $app->redirect('../');
+});
+
+
 $app->get('/truckManagement', function () use ($app){
     $trucks = Truck::getAllTruck();
     $companys = Company::getAllCompany();
