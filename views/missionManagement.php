@@ -6,8 +6,8 @@
         <th data-field="user">Utilisateur</th>
         <th data-field="start">Date de début</th>
         <th data-field="end">Date de fin</th>
-        <th data-field="startAdress">Addresse de prise</th>
-        <th data-field="endAdress">Addresse de livraison</th>
+        <th data-field="startAdress">Adresse de chargement</th>
+        <th data-field="endAdress">Adresse de livraison</th>
         <th data-field="isFinish">Terminé</th>
         <th></th>
     </tr>
@@ -86,10 +86,10 @@
     </div>
     <div class="row">
         <div class="col s6">
-            <label>Addresse de prise</label><input type="text" id="adressStart">
+            <label>Adresse de chargement</label><input type="text" id="adressStart">
         </div>
         <div class="col s6">
-            <label>Addresse de livraison</label><input type="text" id="adressEnd">
+            <label>Adresse de livraison</label><input type="text" id="adressEnd">
         </div>
     </div>
     <div class="row">

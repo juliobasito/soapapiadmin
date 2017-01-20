@@ -4,7 +4,7 @@
         <tr>
             <th data-field="id">#</th>
             <th data-field="name">Nom</th>
-            <th data-field="adress">Addresse</th>
+            <th data-field="adress">Adresse</th>
             <th></th>
         </tr>
         </thead>
@@ -43,7 +43,7 @@
         <label id="labelName">Nom: </label><input type="text" maxlength="30" id="name">
     </div>
     <div class="row">
-        <label id="labelAddress">Addresse: </label><input type="text" id="address">
+        <label id="labelAddress">Adresse: </label><input type="text" id="address">
     </div>
     <div class="row">
         <div class="col s6">
@@ -68,7 +68,7 @@
         <label id="labelName">Nom: </label><input type="text" maxlength="30" id="nameU">
     </div>
     <div class="row">
-        <label id="labelAddress">Addresse: </label><input type="text" id="addressU">
+        <label id="labelAddress">Adresse: </label><input type="text" id="addressU">
     </div>
     <div class="row">
         <div class="col s6">
