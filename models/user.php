@@ -105,9 +105,9 @@ class user
             }
             if(isset($_GET["role"])){
                 if($req2 == "")
-                    $req2 = $req2. 'Role = "'.$_GET["role"].'"';
+                    $req2 = $req2. 'Id_Role = "'.$_GET["role"].'"';
                 else
-                    $req2 = $req2. ', Role = "'.$_GET["role"].'"';
+                    $req2 = $req2. ', Id_Role = "'.$_GET["role"].'"';
             }
             if(isset($_GET["formation"])){
                 if($req2 == "")

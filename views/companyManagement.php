@@ -80,7 +80,7 @@
     </div>
     <div class="row">
         <button class="waves-effect waves-light btn blue lighten-1" onclick="updateCompany()">Valider</button>
-        <button class="waves-effect waves-light btn red lighten-1" onclick="show('add')">Annuler</button>
+        <button class="waves-effect waves-light btn red lighten-1" onclick="showUpdate(0)">Annuler</button>
     </div>
 </div>
 
